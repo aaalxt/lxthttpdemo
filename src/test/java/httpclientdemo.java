@@ -282,7 +282,7 @@ public class httpclientdemo {
      * @date 2018年7月13日 下午4:18:50
      */
     @Test
-    public void doPostTestFour() {
+    public void doPostTesthave() {
 
         // 获得Http客户端(可以理解为:你得先有一个浏览器;注意:实际上HttpClient与浏览器是不一样的)
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
@@ -337,16 +337,6 @@ public class httpclientdemo {
             }
         }
     }
-    对应接收示例：
-
-
-
-    POST有参(对象参数)：
-    先给出User类
-
-
-
-    HttpClient发送示例：
 
     /**
      * POST---有参测试(对象参数)
